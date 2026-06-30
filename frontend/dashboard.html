@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard</title>
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<nav class="green darken-3">
+
+    <div class="nav-wrapper container">
+
+        <a href="dashboard.html" class="brand-logo">
+            🌱 Monitoreo Agrícola
+        </a>
+
+        <ul class="right">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+            <li><a href="parcelas.html">Parcelas</a></li>
+            <li><a href="cultivos.html">Cultivos</a></li>
+            <li><a href="index.html">Cerrar sesión</a></li>
+        </ul>
+
+    </div>
+
+</nav>
+
+<div class="container">
+
+    <h4>Bienvenido al Sistema de Monitoreo Agrícola 🌱</h4>
+    <h6 id="bienvenida"></h6>
+
+    <p>
+        Administre usuarios, parcelas y cultivos desde un único lugar.
+    </p>
+
+    <div class="row">
+
+        <div class="col s12 m4">
+            <div class="card green white-text">
+                <div class="card-content center">
+
+                    <i class="material-icons large">people</i>
+
+                    <h4 id="totalUsuarios">0</h4>
+
+                    <p>Usuarios</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card blue white-text">
+                <div class="card-content center">
+
+                    <i class="material-icons large">landscape</i>
+
+                    <h4 id="totalParcelas">0</h4>
+
+                    <p>Parcelas</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card orange white-text">
+                <div class="card-content center">
+
+                    <i class="material-icons large">eco</i>
+
+                    <h4 id="totalCultivos">0</h4>
+
+                    <p>Cultivos</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="estado">
+
+    <h5>Estado del Sistema</h5>
+
+    <p>✅ API REST funcionando correctamente.</p>
+
+    <p>✅ MongoDB Atlas conectado.</p>
+
+    <p>✅ Materialize CSS cargado.</p>
+
+    <p>🚀 Proyecto Full Stack en desarrollo.</p>
+
+</div>
+
+</div>
+
+<footer class="page-footer green darken-3">
+
+    <div class="container center">
+
+        © 2026 Sistema de Monitoreo Agrícola
+
+    </div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="js/config.js"></script>
+
+<script src="js/dashboard.js"></script>
+
+
+</body>
+
+</html>

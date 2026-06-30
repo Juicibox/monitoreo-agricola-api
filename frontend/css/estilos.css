@@ -1,0 +1,77 @@
+body{
+
+    background:#f4f7f8;
+
+}
+
+nav{
+
+    padding:0 25px;
+
+}
+
+.brand-logo{
+
+    font-weight:bold;
+
+}
+
+.container{
+
+    margin-top:30px;
+
+}
+
+.card{
+
+    border-radius:15px;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+
+}
+
+.card-content h4{
+
+    margin:15px 0;
+
+    font-weight:bold;
+
+}
+
+.material-icons.large{
+
+    font-size:55px;
+
+}
+
+.page-footer{
+
+    margin-top:50px;
+
+}
+
+.estado{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.estado p{
+
+    font-size:17px;
+
+}
+
+h4{
+
+    color:#2e7d32;
+
+    font-weight:bold;
+
+}
